@@ -22,7 +22,9 @@ public class Menu implements Runnable{
             }
             System.out.println("[0]: Выход");
             choice = getNumber("---> ", 0, items.size());
+            System.out.println();
             execute(choice);
+            System.out.println();
         }
     }
 
@@ -37,7 +39,7 @@ public class Menu implements Runnable{
         do {
             number = input.nextInt();
             if(number < min || number > max)
-                System.out.println("Число вне диапазона. Повторите ввод.");
+                System.out.print("Число вне диапазона. Повторите ввод.\n---> ");
         } while (number < min || number > max);
         return number;
     }
