@@ -1,0 +1,5 @@
+com\vsu\ringbuffer\RingBufferImpl.class
+com\vsu\ringbuffer\proxy\ProxyHandler.class
+com\vsu\ringbuffer\Node.class
+com\vsu\factory\FactoryRingBuffer.class
+com\vsu\ringbuffer\RingBuffer.class
