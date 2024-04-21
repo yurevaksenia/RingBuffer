@@ -5,5 +5,5 @@
         "lib/**/*.jar"
     ],
     "java.configuration.updateBuildConfiguration": "interactive",
-    "files.encoding": "windows1251"
+    "files.encoding": "utf8"
 }
