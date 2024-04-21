@@ -47,9 +47,9 @@ public class RingBufferImpl&lt;E&gt; implements RingBuffer&lt;E&gt; {
 <span class="fc" id="L47">            tail = head;</span>
         }
         else    {
-<span class="pc bpc" id="L50" title="1 of 2 branches missed.">            if (countElements == maxSize) {</span>
-<span class="nc" id="L51">                head = head.next;</span>
-<span class="nc" id="L52">                countElements--;</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">            if (countElements == maxSize) {</span>
+<span class="fc" id="L51">                head = head.next;</span>
+<span class="fc" id="L52">                countElements--;</span>
             }
 <span class="fc" id="L54">            Node&lt;E&gt; newNode = new Node&lt;&gt;(item);</span>
 <span class="fc" id="L55">            newNode.next = head;</span>

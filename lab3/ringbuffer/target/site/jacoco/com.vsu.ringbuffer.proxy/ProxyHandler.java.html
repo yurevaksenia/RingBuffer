@@ -10,59 +10,59 @@ public class ProxyHandler&lt;E&gt; implements InvocationHandler {
     private final RingBufferImpl&lt;E&gt; proxyBuffer;
     private String fullness;    //последняя наполненность буфера (пустая строка, если буфер ещё не был полон)
 
-<span class="nc" id="L13">    public ProxyHandler(RingBufferImpl&lt;E&gt; proxyBuffer) {</span>
-<span class="nc" id="L14">        this.proxyBuffer = proxyBuffer;</span>
-<span class="nc" id="L15">        fullness = &quot;&quot;;</span>
-<span class="nc" id="L16">    }</span>
+<span class="fc" id="L13">    public ProxyHandler(RingBufferImpl&lt;E&gt; proxyBuffer) {</span>
+<span class="fc" id="L14">        this.proxyBuffer = proxyBuffer;</span>
+<span class="fc" id="L15">        fullness = &quot;&quot;;</span>
+<span class="fc" id="L16">    }</span>
 
     private Object addInvoke(Method method, Object[] args) throws Throwable {
-<span class="nc bnc" id="L19" title="All 2 branches missed.">        if (!proxyBuffer.isFull()) {</span>
-<span class="nc" id="L20">            method.invoke(proxyBuffer, args);</span>
-<span class="nc bnc" id="L21" title="All 2 branches missed.">            fullness = proxyBuffer.isFull() ? proxyBuffer.toString() : &quot;&quot;;  //после добавления проверяем, не стал ли он заполненным</span>
-<span class="nc" id="L22">            return null;</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        if (!proxyBuffer.isFull()) {</span>
+<span class="fc" id="L20">            method.invoke(proxyBuffer, args);</span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">            fullness = proxyBuffer.isFull() ? proxyBuffer.toString() : &quot;&quot;;  //после добавления проверяем, не стал ли он заполненным</span>
+<span class="fc" id="L22">            return null;</span>
         }
         //попадаем сюда, если буфер уже полный
         //засекаем время
-<span class="nc" id="L26">        long start = System.nanoTime();</span>
+<span class="fc" id="L26">        long start = System.nanoTime();</span>
 
-<span class="nc" id="L28">        E oldHeadElement = proxyBuffer.peek();   //получаем затираемый элемент</span>
-<span class="nc" id="L29">        method.invoke(proxyBuffer, args);        //вызываем метод add буфера</span>
-<span class="nc" id="L30">        fullness = proxyBuffer.toString();       //сохраняем последнюю наполненность буфера</span>
+<span class="fc" id="L28">        E oldHeadElement = proxyBuffer.peek();   //получаем затираемый элемент</span>
+<span class="fc" id="L29">        method.invoke(proxyBuffer, args);        //вызываем метод add буфера</span>
+<span class="fc" id="L30">        fullness = proxyBuffer.toString();       //сохраняем последнюю наполненность буфера</span>
 
         //останавливаем таймер
-<span class="nc" id="L33">        long elapsed = System.nanoTime() - start;</span>
-<span class="nc" id="L34">        System.out.println(&quot;Перезаписанный элемент: &quot; + oldHeadElement.toString());</span>
-<span class="nc" id="L35">        System.out.println(&quot;Время, затраченное на операцию [в наносекундах]: &quot; + elapsed);</span>
-<span class="nc" id="L36">        return null;</span>
+<span class="fc" id="L33">        long elapsed = System.nanoTime() - start;</span>
+<span class="fc" id="L34">        System.out.println(&quot;Перезаписанный элемент: &quot; + oldHeadElement.toString());</span>
+<span class="fc" id="L35">        System.out.println(&quot;Время, затраченное на операцию [в наносекундах]: &quot; + elapsed);</span>
+<span class="fc" id="L36">        return null;</span>
     }
 
     private Object pollInvoke(Method method, Object[] args) throws Throwable {
         //засекаем время
-<span class="nc" id="L41">        long start = System.nanoTime();</span>
-<span class="nc" id="L42">        Object result = method.invoke(proxyBuffer, args);   //запоминаем результат вызова метода poll, т.е. удаляемый элемент</span>
-<span class="nc" id="L43">        long elapsed = System.nanoTime() - start;</span>
+<span class="fc" id="L41">        long start = System.nanoTime();</span>
+<span class="fc" id="L42">        Object result = method.invoke(proxyBuffer, args);   //запоминаем результат вызова метода poll, т.е. удаляемый элемент</span>
+<span class="fc" id="L43">        long elapsed = System.nanoTime() - start;</span>
 
-<span class="nc bnc" id="L45" title="All 2 branches missed.">        if (proxyBuffer.isEmpty()) {</span>
-<span class="nc bnc" id="L46" title="All 2 branches missed.">            if (fullness.equals(&quot;&quot;)) {</span>
-<span class="nc" id="L47">                System.out.println(&quot;За время работы программы буффер не заполнялся полностью.&quot;);</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (proxyBuffer.isEmpty()) {</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">            if (fullness.equals(&quot;&quot;)) {</span>
+<span class="fc" id="L47">                System.out.println(&quot;За время работы программы буффер не заполнялся полностью.&quot;);</span>
             }
             else {
-<span class="nc" id="L50">                System.out.println(&quot;Последнее содержимое буффера: &quot; + fullness);</span>
+<span class="fc" id="L50">                System.out.println(&quot;Последнее содержимое буффера: &quot; + fullness);</span>
             }
-<span class="nc" id="L52">            System.out.println(&quot;Время, затраченное на операцию [в наносекундах]: &quot; + elapsed);</span>
+<span class="fc" id="L52">            System.out.println(&quot;Время, затраченное на операцию [в наносекундах]: &quot; + elapsed);</span>
         }
-<span class="nc" id="L54">        return result;</span>
+<span class="fc" id="L54">        return result;</span>
     }
 
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-<span class="nc bnc" id="L60" title="All 2 branches missed.">        if (method.getName().equals(&quot;add&quot;))</span>
-<span class="nc" id="L61">            return addInvoke(method, args);</span>
-<span class="nc bnc" id="L62" title="All 2 branches missed.">        else if (method.getName().equals(&quot;poll&quot;))</span>
-<span class="nc" id="L63">            return pollInvoke(method, args);</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">        if (method.getName().equals(&quot;add&quot;))</span>
+<span class="fc" id="L61">            return addInvoke(method, args);</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">        else if (method.getName().equals(&quot;poll&quot;))</span>
+<span class="fc" id="L63">            return pollInvoke(method, args);</span>
         else
-<span class="nc" id="L65">            return method.invoke(proxyBuffer, args);</span>
+<span class="fc" id="L65">            return method.invoke(proxyBuffer, args);</span>
     }
 }
 

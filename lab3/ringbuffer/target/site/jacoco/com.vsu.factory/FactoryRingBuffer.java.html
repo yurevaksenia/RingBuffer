@@ -6,17 +6,17 @@ import com.vsu.ringbuffer.proxy.ProxyHandler;
 
 import java.lang.reflect.Proxy;
 
-<span class="nc" id="L9">public class FactoryRingBuffer&lt;E&gt; {</span>
+<span class="fc" id="L9">public class FactoryRingBuffer&lt;E&gt; {</span>
 
     public RingBuffer&lt;E&gt; createProxyRingBuffer(int size) {
-<span class="nc" id="L12">        RingBufferImpl&lt;E&gt; ringBuffer = new RingBufferImpl&lt;&gt;(size);</span>
+<span class="fc" id="L12">        RingBufferImpl&lt;E&gt; ringBuffer = new RingBufferImpl&lt;&gt;(size);</span>
 
-<span class="nc" id="L14">        RingBuffer&lt;E&gt; proxyRingBuffer = (RingBuffer) Proxy.newProxyInstance(</span>
-<span class="nc" id="L15">                RingBuffer.class.getClassLoader(),</span>
+<span class="fc" id="L14">        RingBuffer&lt;E&gt; proxyRingBuffer = (RingBuffer) Proxy.newProxyInstance(</span>
+<span class="fc" id="L15">                RingBuffer.class.getClassLoader(),</span>
                 new Class[]{RingBuffer.class},
                 new ProxyHandler&lt;&gt;(ringBuffer)
         );
-<span class="nc" id="L19">        return proxyRingBuffer;</span>
+<span class="fc" id="L19">        return proxyRingBuffer;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

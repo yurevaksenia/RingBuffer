@@ -14,23 +14,23 @@ public class Menu implements Runnable{
 
     @Override
     public void run() {
-<span class="nc" id="L17">        int choice = -1;</span>
-<span class="nc bnc" id="L18" title="All 2 branches missed.">        while(choice != 0) {</span>
-<span class="nc" id="L19">            System.out.println(title + &quot;:&quot;);</span>
-<span class="nc bnc" id="L20" title="All 2 branches missed.">            for (MenuItem item : items) {</span>
-<span class="nc" id="L21">                System.out.println(&quot;[&quot; + item.getId() + &quot;]: &quot; + item.getText());</span>
-<span class="nc" id="L22">            }</span>
-<span class="nc" id="L23">            System.out.println(&quot;[0]: Выход&quot;);</span>
-<span class="nc" id="L24">            choice = getNumber(&quot;---&gt; &quot;, 0, items.size());</span>
-<span class="nc" id="L25">            System.out.println();</span>
-<span class="nc" id="L26">            execute(choice);</span>
-<span class="nc" id="L27">            System.out.println();</span>
+<span class="fc" id="L17">        int choice = -1;</span>
+<span class="fc bfc" id="L18" title="All 2 branches covered.">        while(choice != 0) {</span>
+<span class="fc" id="L19">            System.out.println(title + &quot;:&quot;);</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">            for (MenuItem item : items) {</span>
+<span class="fc" id="L21">                System.out.println(&quot;[&quot; + item.getId() + &quot;]: &quot; + item.getText());</span>
+<span class="fc" id="L22">            }</span>
+<span class="fc" id="L23">            System.out.println(&quot;[0]: Выход&quot;);</span>
+<span class="fc" id="L24">            choice = getNumber(&quot;---&gt; &quot;, 0, items.size());</span>
+<span class="fc" id="L25">            System.out.println();</span>
+<span class="fc" id="L26">            execute(choice);</span>
+<span class="fc" id="L27">            System.out.println();</span>
         }
-<span class="nc" id="L29">    }</span>
+<span class="fc" id="L29">    }</span>
 
     public void addMenuItem(MenuItem menuItem) {
-<span class="nc" id="L32">        items.add(menuItem);</span>
-<span class="nc" id="L33">    }</span>
+<span class="fc" id="L32">        items.add(menuItem);</span>
+<span class="fc" id="L33">    }</span>
 
     public int getNumber(String message, int min, int max){
 <span class="fc" id="L36">        System.out.print(message);</span>
@@ -45,11 +45,11 @@ public class Menu implements Runnable{
     }
 
     public void execute(int choice) {
-<span class="nc bnc" id="L48" title="All 2 branches missed.">        if(choice == 0)</span>
-<span class="nc" id="L49">            return;</span>
-<span class="nc" id="L50">        int choicePos = choice - 1;</span>
-<span class="nc" id="L51">        items.get(choicePos).getMethod().run();</span>
-<span class="nc" id="L52">    }</span>
+<span class="fc bfc" id="L48" title="All 2 branches covered.">        if(choice == 0)</span>
+<span class="fc" id="L49">            return;</span>
+<span class="fc" id="L50">        int choicePos = choice - 1;</span>
+<span class="fc" id="L51">        items.get(choicePos).getMethod().run();</span>
+<span class="fc" id="L52">    }</span>
 }
 
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
