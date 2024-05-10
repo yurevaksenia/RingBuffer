@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="041cb75c-bddb-42c9-8b5b-53cb0f3ad486" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RingBuffer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/src/main/java/com/vsu/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/main/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/src/main/java/com/vsu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/src/main/java/com/vsu/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/src/main/java/com/vsu/RunnableMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/src/test/java/MenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/Menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/Menu.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/MenuItem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/MenuItem.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/com.vsu/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/surefire-reports/2024-04-21T17-16-56_428.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/surefire-reports/MenuTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/menu/target/surefire-reports/TEST-MenuTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/main/java/com/vsu/factory/FactoryRingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/main/java/com/vsu/ringbuffer/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/main/java/com/vsu/ringbuffer/RingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/main/java/com/vsu/ringbuffer/RingBufferImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/main/java/com/vsu/ringbuffer/proxy/ProxyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/test/java/FactoryRingBufferTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/test/java/ProxyHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/src/test/java/RingBufferImpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.factory/FactoryRingBuffer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.factory/FactoryRingBuffer.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.factory/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.factory/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer.proxy/ProxyHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer.proxy/ProxyHandler.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer.proxy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer.proxy/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/Node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/Node.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/RingBufferImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/RingBufferImpl.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/com.vsu.ringbuffer/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/FactoryRingBufferTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/ProxyHandlerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/RingBufferImpTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/TEST-FactoryRingBufferTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/TEST-ProxyHandlerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ringbuffer/target/surefire-reports/TEST-RingBufferImpTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/main/java/com/vsu/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gGubEpIAWL4BjEMjPd3bJglApU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/tests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RingBuffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RingBuffer" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-temurin-21.0.2-4caba194b151-7da56cdf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="041cb75c-bddb-42c9-8b5b-53cb0f3ad486" name="Changes" comment="" />
+      <created>1715336305321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715336305321</updated>
+    </task>
+    <servers />
+  </component>
+</project>
