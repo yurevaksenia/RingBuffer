@@ -1,6 +1,6 @@
 package com.vsu.ringbuffer;
 
-public class Node<E>{
+public class Node<E> {
     E value;
     Node<E> next;
 

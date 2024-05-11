@@ -3,7 +3,7 @@ package com.vsu;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Menu implements Runnable{
+public class Menu implements Runnable {
 
     private final String title;         //название меню
     private ArrayList<MenuItem> items;  //пункты меню
@@ -15,7 +15,7 @@ public class Menu implements Runnable{
     @Override
     public void run() {
         int choice = -1;
-        while(choice != 0) {
+        while (choice != 0) {
             System.out.println(title + ":");
             for (MenuItem item : items) {
                 System.out.println("[" + item.getId() + "]: " + item.getText());
@@ -32,20 +32,20 @@ public class Menu implements Runnable{
         items.add(menuItem);
     }
 
-    public int getNumber(String message, int min, int max){
+    public int getNumber(String message, int min, int max) {
         System.out.print(message);
         Scanner input = new Scanner(System.in);
         int number;
         do {
             number = input.nextInt();
-            if(number < min || number > max)
+            if (number < min || number > max)
                 System.out.print("Число вне диапазона. Пожалуйста, повторите ввод.\n---> ");
         } while (number < min || number > max);
         return number;
     }
 
     public void execute(int choice) {
-        if(choice == 0)
+        if (choice == 0)
             return;
         int choicePos = choice - 1;
         items.get(choicePos).getMethod().run();
