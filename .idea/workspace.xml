@@ -6,7 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="041cb75c-bddb-42c9-8b5b-53cb0f3ad486" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ringbuffer/src/main/java/com/vsu/ringbuffer/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/src/main/java/com/vsu/ringbuffer/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/surefire-reports/2024-05-10T13-20-59_077.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/surefire-reports/MenuTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/surefire-reports/MenuTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/surefire-reports/TEST-MenuTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/surefire-reports/TEST-MenuTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/FactoryRingBufferTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/FactoryRingBufferTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/RingBufferImpTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/RingBufferImpTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-FactoryRingBufferTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-FactoryRingBufferTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-ProxyHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-ProxyHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-RingBufferImpTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ringbuffer/target/surefire-reports/TEST-RingBufferImpTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

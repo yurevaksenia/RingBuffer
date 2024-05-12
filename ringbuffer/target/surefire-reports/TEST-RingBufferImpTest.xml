@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RingBufferImpTest" time="0.006" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RingBufferImpTest" time="0.005" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\Vladimir\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Vladimir\AppData\Local\Temp\surefire4120014230538802472\surefirebooter8103089091109274593.jar C:\Users\Vladimir\AppData\Local\Temp\surefire4120014230538802472 2024-05-10T13-20-59_077-jvmRun1 surefire17924767470739999840tmp surefire_114011221655675064140tmp"/>
+    <property name="sun.java.command" value="C:\Users\Vladimir\AppData\Local\Temp\surefire4044848096843422598\surefirebooter13637068729578752486.jar C:\Users\Vladimir\AppData\Local\Temp\surefire4044848096843422598 2024-05-12T18-51-41_464-jvmRun1 surefire4817656873154807756tmp surefire_18600084842008705748tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\vsu\RingBuffer\ringbuffer\target\test-classes;G:\vsu\RingBuffer\ringbuffer\target\classes;C:\Users\Vladimir\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Vladimir\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Vladimir\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Vladimir\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Vladimir\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Vladimir\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Vladimir\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\Vladimir\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Vladimir\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\Vladimir\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Vladimir\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Vladimir\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\Vladimir\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\Vladimir\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\Vladimir\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\Vladimir\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Vladimir\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\Vladimir\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\Vladimir\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Vladimir\AppData\Local\Temp\surefire4120014230538802472\surefirebooter8103089091109274593.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vladimir\AppData\Local\Temp\surefire4044848096843422598\surefirebooter13637068729578752486.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7"/>
@@ -58,7 +58,7 @@
     <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="testIsFullAndIsEmpty" classname="RingBufferImpTest" time="0"/>
-  <testcase name="testPeek" classname="RingBufferImpTest" time="0"/>
+  <testcase name="testPeek" classname="RingBufferImpTest" time="0.001"/>
   <testcase name="testToString" classname="RingBufferImpTest" time="0.001"/>
   <testcase name="testGetSize" classname="RingBufferImpTest" time="0.001"/>
   <testcase name="testAddAndPoll" classname="RingBufferImpTest" time="0"/>
