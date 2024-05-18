@@ -1,13 +1,13 @@
 package com.vsu.ringbuffer;
 
-public class RingBufferImpl<E> implements RingBuffer<E> {
+public class RingBufferImpl<E> implements RingBuffer<E>{
     private Node<E> head;           //указатель на начало буфера
     private Node<E> tail;           //указатель на конец буфера
     public int maxSize = 5;         //максимальный размер буфера
     private int countElements;      //текущее количество элементов
 
 
-    public RingBufferImpl(int size) {
+    public RingBufferImpl(int size){
         head = null; 
         tail = null;
         maxSize = size;
@@ -16,8 +16,8 @@ public class RingBufferImpl<E> implements RingBuffer<E> {
 
     //возвращает и удаляет элемент из начала очереди
     @Override
-    public E poll() {
-        if (countElements == 0) {
+    public E poll(){
+        if (countElements == 0){
             return null;
         }
         E item = head.value;
